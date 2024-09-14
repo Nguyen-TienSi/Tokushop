@@ -1,0 +1,111 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#primary-detail {
+    display: flex;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    flex: 1;
+}
+
+#gallery>div {
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+
+#main-img {
+    justify-content: center;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+#main-img img {
+    width: 100%;
+    max-width: 500px;
+    max-height: 100%;
+}
+
+#img-collection {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 10px;
+}
+
+#gallery>div button {
+    width: 30px;
+    height: 30px;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23%;
+    height: 100px;
+    margin: 10px 0;
+}
+
+.img-item img {
+    max-width: 80%;
+    height: 100%;
+}
+
+.selected {
+    border: 1px solid black;
+}
+
+#meta-data {
+    padding: 0 10px;
+    flex: 1;
+}
+
+#meta-data>h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+#meta-data>form {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+#meta-data span {
+    font-weight: bold;
+}
+
+#meta-data button {
+    padding: 10px;
+}
+
+#meta-data button[type=submit] {
+    margin-left: 10px;
+}
+
+#meta-data input {
+    width: 30px;
+    height: 33px;
+    text-align: center;
+}

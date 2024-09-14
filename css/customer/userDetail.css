@@ -1,0 +1,37 @@
+#user-detail {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#user-detail>div {
+    width: 45%;
+    padding: 20px;
+}
+
+#user-meta {
+    width: 100%;
+}
+
+.user-data p {
+    text-align: left;
+    margin-left: 5px;
+}
+
+.user-data input {
+    width: 80%;
+    max-width: 700px;
+    max-width: 700px;
+    padding: 10px 15px;
+}
+
+#user-account input {
+    width: 50%;
+    max-width: 500px;
+}
+
+form button {
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 16px;
+}

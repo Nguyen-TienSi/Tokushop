@@ -1,0 +1,60 @@
+.shopInfo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.shopInfo > div {
+    margin: 0 20px;
+}
+
+.aboutShop a {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.aboutShop img {
+    width: 95px;
+    height: 95px;
+    border-radius: 100px;
+    margin-right: 4px;
+}
+
+.aboutShop span {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.othersAboutUs {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.othersAboutUs h4 {
+    margin-bottom: 10px;
+}
+
+.othersAboutUs img {
+    max-width: 100%;
+    height: auto;
+    margin: 3px;
+}
+
+.copyright {
+    height: 40px;
+    margin: 0;
+    background-color: orange;
+    text-align: center;
+}
+
+.copyright p {
+    padding: 10px;
+    color: black;
+}

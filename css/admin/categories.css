@@ -1,0 +1,58 @@
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* border-radius: 5px; */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+input[type="text"],
+input[type="radio"],
+form>button, td button {
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="text"] {
+    width: 50%;
+}
+
+form>button, td button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+#delete {
+    background-color: red;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    background: #fff;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    margin: 0 auto 50px auto;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}

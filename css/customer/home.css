@@ -1,0 +1,92 @@
+/* PRODUCTS */
+.products > h2 {
+    text-align: center;
+}
+
+.products > div {
+    padding: 20px;
+    width: 85%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.product-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* box-sizing: border-box; */
+}
+
+.product {
+    /* background-color: bisque; */
+    border: 1px solid black;
+    min-width: 250px;
+    max-width: 23%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.product img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover; 
+}
+
+.product-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: 2em;
+    color: red;
+    font-weight: bold;
+}
+
+.seemore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    margin: 20px auto;
+    border: 1px solid black;
+}
+
+.seemore:hover {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+/* FEEDBACK */
+.feedbacks {
+    margin: 0 0 100px 0;
+}
+
+.feedbacks > h2 {
+    text-align: center;
+}
+
+.feedbacks > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.feedback {
+    width: 40%;
+    max-width: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px 20px;
+}
+
+.feedback img {
+    width: 100%;
+}

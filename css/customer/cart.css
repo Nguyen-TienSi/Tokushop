@@ -1,0 +1,168 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+textarea {
+    resize: none;
+    field-sizing: content;
+    min-height: calc(24px * 2);
+}
+
+#cart {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 30px;
+}
+
+.added-products form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+table {
+    border-collapse: collapse;
+    width: auto;
+    min-width: 800px;
+    margin-top: 30px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    width: auto;
+    text-align: center;
+}
+
+th {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.product-meta {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: auto;
+    padding: 10px;
+}
+
+.product-meta img {
+    width: 100px;
+    height: 100px;
+}
+
+.product-meta p {
+    text-wrap: wrap;
+    width: 120px;
+    padding: 0 10px;
+    text-align: left;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.quantity button {
+    height: 100%;
+    border-style: none;
+    font-size: 25px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.quantity input {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    border-style: none;
+}
+
+.price {
+    padding: 0 10px;
+    font-size: 25px;
+}
+
+#update-cart {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin: 20px;
+    background-color: blue;
+    color: white;
+}
+
+.payment-form {
+    width: 40%;
+    max-width: 500px;
+    border-left: 1px solid grey;
+    margin-left: 50px;
+}
+
+.customer-info {
+    text-align: center;
+}
+
+.customer-info input,
+textarea {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    padding: 15px;
+}
+
+.bill-summary>h2 {
+    text-align: center;
+}
+
+.main-bill div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 10px auto;
+    border-bottom: 2px solid grey;
+}
+
+.main-bill div span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#coupon {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 25px;
+    margin: auto;
+}
+
+#coupon input {
+    width: 70%;
+}
+
+#add-coupon {
+    background-color: grey;
+    width: 30%;
+}
+
+#complete-payment {
+    display: block;
+    background-color: red;
+    margin: 20px auto;
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+}
